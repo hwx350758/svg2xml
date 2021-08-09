@@ -1644,8 +1644,8 @@ public class Shape2Xml
 				doubleValue -= coord;
 				doubleValue = roundToDecimals(doubleValue, decimalsNum);
 				doubleValueString = String.valueOf(doubleValue);
-
-				Double valueDouble = new Double(doubleValue);
+ 
+				Double valueDouble = Double.valueOf(doubleValue);
 				long valueLong = 0;
 
 				//compose
